@@ -1,0 +1,278 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Navigate to the sign-up page.
+    commands:
+      - command: hover-text
+        text: Join Waitlist
+        description: button to navigate to the sign-up page
+        action: click
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: First Name
+        description: field for entering first name
+        action: click
+      - command: type
+        text: TestFirstName
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Last Name
+        description: field for entering last name
+        action: click
+      - command: type
+        text: TestLastName
+      - command: hover-text
+        text: Email
+        description: field for entering email
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Phone Number
+        description: field for entering phone number
+        action: click
+      - command: type
+        text: 1234567890
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: Test Organization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+      - command: hover-text
+        text: Employee
+        description: radio button for selecting designation
+        action: click
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Join Waitlist
+        description: button to navigate to the sign-up page
+        action: click
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: First Name
+        description: field for entering first name
+        action: click
+      - command: type
+        text: TestFirstName
+      - command: hover-text
+        text: Last Name
+        description: field for entering last name
+        action: click
+      - command: type
+        text: TestLastName
+      - command: hover-text
+        text: Email
+        description: field for entering email
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Phone Number
+        description: field for entering phone number
+        action: click
+      - command: type
+        text: 1234567890
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Linkedin
+        description: field for entering LinkedIn profile
+        action: click
+      - command: type
+        text: linkedin.com/in/testprofile
+      - command: hover-text
+        text: Name of Organization
+        description: field for entering organization name
+        action: click
+      - command: type
+        text: TestOrganization
+      - command: hover-text
+        text: Team Size(no. of employees)
+        description: field for entering team size
+        action: click
+      - command: type
+        text: 10-20
+      - command: hover-text
+        text: Funding Stage
+        description: field for entering funding stage
+        action: click
+      - command: type
+        text: Seed
