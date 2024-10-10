@@ -1,0 +1,112 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: YouTube
+        description: YouTube icon
+        action: click
+      - command: hover-text
+        text: LinkedIn
+        description: LinkedIn icon
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: Follow Us
+        description: social media section
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: YouTube
+        description: YouTube icon
+        action: click
+      - command: hover-text
+        text: LinkedIn
+        description: LinkedIn icon
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: YouTube
+        description: YouTube icon
+        action: click
+      - command: hover-text
+        text: LinkedIn
+        description: LinkedIn icon
+        action: click
+  - prompt: Click on each social media icon.
+    commands:
+      - command: hover-text
+        text: YouTube
+        description: YouTube icon
+        action: click
+      - command: hover-text
+        text: LinkedIn
+        description: LinkedIn icon
+        action: click
