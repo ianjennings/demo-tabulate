@@ -1,0 +1,101 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Navigate to the product features section.
+    commands:
+      - command: scroll-until-text
+        text: Features
+        direction: down
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
+  - prompt: Click on "Learn More" for a feature.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: button for more information on a feature
+        action: click
