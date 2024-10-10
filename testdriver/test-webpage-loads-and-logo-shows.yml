@@ -1,0 +1,14 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Assert that the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: the webpage displays "Manage all things Equity"
+  - prompt: >-
+      Assert that the company logo is visible.  # Use the content of the file
+      from the environment
+    commands:
+      - command: assert
+        expect: the company logo "Tabulate" is visible
