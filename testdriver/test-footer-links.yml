@@ -1,0 +1,43 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Scroll to the footer.
+    commands:
+      - command: scroll-until-text
+        text: Copyright 2024
+        direction: down
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: support@tabulate.so
+        description: email link in the footer
+        action: click
+      - command: hover-text
+        text: +91 9731455333
+        description: contact number link in the footer
+        action: click
+      - command: hover-text
+        text: Follow Us
+        description: follow us link in the footer
+        action: click
+  - prompt: >-
+      Assert that each link directs to the correct subsequent page.  # Use the
+      content of the file from the environment
+    commands:
+      - command: hover-text
+        text: support@tabulate.so
+        description: email link in the footer
+        action: click
+  - prompt: >-
+      Assert that each link directs to the correct subsequent page.  # Use the
+      content of the file from the environment
+    commands:
+      - command: hover-text
+        text: support@tabulate.so
+        description: email link in the footer
+        action: click
+      - command: assert
+        expect: the email client opens with the correct address
