@@ -1,0 +1,64 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
+  - prompt: Hover over the main navigation menu.
+    commands:
+      - command: hover-text
+        text: Features
+        description: main navigation menu
+        action: hover
