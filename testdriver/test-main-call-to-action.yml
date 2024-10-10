@@ -1,0 +1,16 @@
+version: 4.0.65
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on the "Join Waitlist" button.
+    commands:
+      - command: hover-text
+        text: Join Waitlist
+        description: button to join the waitlist
+        action: click
+  - prompt: >-
+      Assert that the user is directed to the sign-up form or waitlist page.  #
+      Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: the sign-up form is visible
